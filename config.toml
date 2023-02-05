@@ -1,4 +1,5 @@
-baseURL = 'http://example.org/'
+#baseURL = 'http://example.org/'
+baseURL = '/blog'
 languageCode = 'en'
 defaultContentLanguage = 'en'
 # title = 'My New Hugo Site'
@@ -22,7 +23,7 @@ name = "About"
 weight = 1
 url = "about/"
 
-[[languages.en.menu.main]]
+[[menu.main]]
 name = "Post"
 weight = 1
 url = "posts/"
