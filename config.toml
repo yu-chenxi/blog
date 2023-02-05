@@ -1,0 +1,29 @@
+baseURL = 'http://example.org/'
+languageCode = 'en'
+defaultContentLanguage = 'en'
+# title = 'My New Hugo Site'
+title = 'Yu Chenxi'
+theme = 'hugo-coder'
+publishDir = 'docs'
+
+
+enableEmoji = true
+[params]
+author = 'Yu Chenxi'
+description = "Yu Chenxi 's personalblog"
+info = ["Engineer", "Master"]
+avatarURL = 'img/avatar.jpg'
+# colorScheme = 'dark'
+colorScheme = 'auto'
+# hideColorSchemeToggle = false
+
+[[menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Post"
+weight = 1
+url = "posts/"
+
