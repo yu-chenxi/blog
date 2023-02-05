@@ -1,5 +1,5 @@
 #baseURL = 'http://example.org/'
-baseURL = '/blog'
+baseURL = '/'
 languageCode = 'en'
 defaultContentLanguage = 'en'
 # title = 'My New Hugo Site'
